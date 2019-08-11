@@ -63,6 +63,7 @@ window.addEventListener('load', function(){
             .rest(1000)
             .clear()
             .type('Fullstack')
+            .rest(1000)
             .clear()
             .start()
     }, 1000)
@@ -73,6 +74,7 @@ function scrollYTo(Y){
     const desc = currentY > Y ? true : false;
     if(currentY != Y){
         let i = 1;
+        let c = 1;
         if(desc){
             let temporizador = setInterval(function(){
                 if(window.pageYOffset > Y){
@@ -83,6 +85,7 @@ function scrollYTo(Y){
                 if(i<=20){
                     i += 0.2;
                 }
+                c++;
             }, 10);
         }else{
             let temporizador = setInterval(function(){
