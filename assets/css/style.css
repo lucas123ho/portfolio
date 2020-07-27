@@ -248,3 +248,8 @@ a:hover{
   color: white;
 }
 
+a.icon {
+  font-size: 32px;
+  color: #fff;
+}
+
