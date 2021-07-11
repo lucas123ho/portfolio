@@ -25,10 +25,6 @@ html, body{
   justify-content: center;
 }
 
-.body{
-  width: calc(100% - 60px);
-}
-
 .menu{
   width: 60px;
   position: fixed;
